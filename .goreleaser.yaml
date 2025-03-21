@@ -51,3 +51,9 @@ release:
     ---
 
     Released by [GoReleaser](https://github.com/goreleaser/goreleaser).
+
+env_files:
+  gitlab_token: ~/nope  # 禁用 GitLab
+  gitea_token: ~/nope   # 禁用 Gitea
+
+force_token: github
